@@ -7,7 +7,7 @@ export default function Slider() {
     <>
       <p></p>
       <div className="slider">
-        <p>Bedroom</p>
+        <p className="image-info">Bedroom</p>
         <img
           src="/images/img-3.jpg"
           alt="estate's rooms"
@@ -15,10 +15,10 @@ export default function Slider() {
         />
 
         <button className="navigation-button prev-button">
-          <img src={leftChevron} alt="" />
+          <img src={leftChevron} alt="previous image" />
         </button>
         <button className="navigation-button prev-button">
-          <img src={rightChevron} alt="" />
+          <img src={rightChevron} alt="previous image" />
         </button>
       </div>
     </>
