@@ -5,7 +5,7 @@ import rightChevron from "../../assets/right-arrow.svg";
 export default function Slider() {
   return (
     <>
-      <p></p>
+      <p>3/5</p>
       <div className="slider">
         <p className="image-info">Bedroom</p>
         <img
