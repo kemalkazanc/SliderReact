@@ -18,7 +18,7 @@ export default function Slider() {
           <img src={leftChevron} alt="previous image" />
         </button>
         <button className="navigation-button prev-button">
-          <img src={rightChevron} alt="previous image" />
+          <img src={rightChevron} alt="next image" />
         </button>
       </div>
     </>
