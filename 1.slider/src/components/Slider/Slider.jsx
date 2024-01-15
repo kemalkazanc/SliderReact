@@ -1,11 +1,12 @@
 import React from "react";
 import leftChevron from "../../assets/left-arrow.svg";
 import rightChevron from "../../assets/right-arrow.svg";
+import "./Slider.css";
 
 export default function Slider() {
   return (
     <>
-      <p>3/5</p>
+      <p className="index-info">3/5</p>
       <div className="slider">
         <p className="image-info">Bedroom</p>
         <img
@@ -13,11 +14,10 @@ export default function Slider() {
           alt="estate's rooms"
           className="slider-img"
         />
-
         <button className="navigation-button prev-button">
           <img src={leftChevron} alt="previous image" />
         </button>
-        <button className="navigation-button prev-button">
+        <button className="navigation-button next-button">
           <img src={rightChevron} alt="next image" />
         </button>
       </div>

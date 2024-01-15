@@ -37,23 +37,54 @@
   width: 48px;
   height: 48px;
   border-radius: 50%;
+  border: 2px solid #d4d4d4;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.prev-btn {
-  top: 50%;
+
+.prev-button {
+  left: -100px;
 }
-.next-btn {
-  bottom: 50%;
+
+.next-button {
+  right: -100px;
 }
 
 .navigation-button img {
   width: 15px;
+}
+
+.navigation-button:hover {
+  background: #4e4e4e56;
+}
+
+@media (max-width: 850px) {
+  .index-info {
+    font-size: 16px;
+  }
+  .slider {
+    max-width: 400px;
+  }
+  .navigation-button {
+    width: 35px;
+    height: 35px;
+  }
+  .prev-button {
+    left: -75px;
+  }
+  .next-button {
+    right: -75px;
+  }
+  .navigation-button img {
+    width: 12px;
+  }
 }
