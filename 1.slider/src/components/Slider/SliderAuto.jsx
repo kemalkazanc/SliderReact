@@ -5,7 +5,7 @@ import rightChevron from "../../assets/right-arrow.svg";
 import "./Slider.css";
 import sliderData from "../../data/sliderData";
 
-export default function Slider() {
+export default function SliderAuto() {
   const [sliderIndex, setSliderIndex] = useState(1);
 
   function toggleImage(indexPayload) {
@@ -31,7 +31,7 @@ export default function Slider() {
   }
 
   useEffect(() => {
-    const intervalID = setInterval(() => toggleImage(1), 1000);
+    const intervalID = setInterval(() => toggleImage(1), 2000);
   }, []);
 
   return (
